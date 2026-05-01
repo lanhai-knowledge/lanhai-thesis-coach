@@ -187,7 +187,8 @@ st.markdown("### 聯絡方式")
 st.markdown(
     "**嵐海知識股份有限公司**  \n"
     "Lanhai Knowledge Co., Ltd.  \n\n"
-    "📧 Email：contact@lanhai.tw"
+    "📧 Email：b0915905438@gmail.com  \n"
+    "💬 LINE：`pulovemo`（加好友請註明來自嵐海知識網站）"
 )
 
 render_footer()

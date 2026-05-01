@@ -29,5 +29,5 @@ def render_footer() -> None:
         st.markdown(DISCLAIMER_TEXT)
     st.caption(
         "© 嵐海知識股份有限公司 ・ Lanhai Knowledge Co., Ltd. ・ "
-        "聯絡 email：contact@lanhai.tw"
+        "聯絡 email：b0915905438@gmail.com ・ LINE：pulovemo"
     )

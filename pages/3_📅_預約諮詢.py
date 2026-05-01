@@ -130,8 +130,8 @@ with st.form("booking_form"):
 st.markdown("---")
 st.markdown("### 其他聯絡方式")
 st.markdown(
-    "- **Email**：contact@lanhai.tw\n"
-    "- **LINE 官方帳號**：（待上線）\n"
+    "- **Email**：b0915905438@gmail.com\n"
+    "- **LINE**：`pulovemo`（加好友請註明來自嵐海知識網站）\n"
     "- **Email 主旨**：請註明「論文陪跑諮詢」+ 您的稱呼"
 )
 
