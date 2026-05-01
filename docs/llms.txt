@@ -1,0 +1,61 @@
+# 嵐海知識｜論文陪跑顧問
+
+> 嵐海知識（Lanhai Knowledge）是面向華語圈碩博士生的付費學術寫作教練服務。
+> 提供五階段透明陪跑流程、單章 APA 校對、口試模擬，全程不代寫論文正文，
+> 並比照律師業制定學術寫作教練倫理守則。
+
+## 核心定位
+- 學術寫作教練（Academic Writing Coach），非論文代寫
+- 訂閱式 / 單次計費的陪跑諮詢
+- 比照律師業「法律顧問」模式：明確倫理守則、標準化流程、透明收費
+- 顧問掛名：嵐嵐 Lan Lan / 楊念慈
+
+## 服務方案
+- [L1 ・ 單章 APA 校對](https://lanhai-thesis-coach.streamlit.app/服務方案) — NT$ 1,500 / 5,000 字內 — 已寫完想找人掃格式
+- [L2 ・ 單章潤稿（含 5 大陷阱掃描）](https://lanhai-thesis-coach.streamlit.app/服務方案) — NT$ 2,000 / 5,000 字內 — 章節快定稿前最後一道關
+- [L3 ・ 月度陪跑](https://lanhai-thesis-coach.streamlit.app/服務方案) — NT$ 8,000 / 月 — 4 次 meeting + 隨時諮詢
+- [L4 ・ 研究方法診斷](https://lanhai-thesis-coach.streamlit.app/服務方案) — NT$ 5,000 / 90 分鐘 — 統計卡關 / 質性編碼 / 架構梳理
+- [L5 ・ 口試衝刺包](https://lanhai-thesis-coach.streamlit.app/服務方案) — NT$ 12,000 / 整包 — PPT 診斷 + 全真模擬 ×2
+
+## 五階段標準流程
+1. 初談（30–45 分鐘付費 NT$ 500，簽約後全額折抵）
+2. 案情分析（3 工作日內出需求分析書 + 方案建議書）
+3. 簽約（合約 + 倫理守則簽署 + 首期款）
+4. 執行（依方案進行 meeting、書面回饋、隨時諮詢、月度工作明細帳單）
+5. 結案（結案報告 + 學習成長摘要 + 後續建議）
+
+## 寫作知識庫（免費）
+- [文獻檢索三視角](https://lanhai-thesis-coach.streamlit.app/寫作知識庫?id=lit-search-three-perspectives) — Google Scholar / WoS / Scopus 三角驗證
+- [APA 中英混用怎麼解](https://lanhai-thesis-coach.streamlit.app/寫作知識庫?id=apa-cn-en-mix) — 半形 / 全形括號、& / 與、單複數作者規則表
+- [AI 工具找文獻 5 大地雷](https://lanhai-thesis-coach.streamlit.app/寫作知識庫?id=ai-citation-traps) — ChatGPT / Claude 給的引用怎麼驗
+
+## 五大常見學術寫作陷阱
+1. AI 工具捏造引用 — DOI 真實但對應錯篇 / 標題真實但作者是 AI 編的
+2. APA 格式中英混用 — 英文半形括號 + 逗號、中文全形括號 + 頓號
+3. 孤兒概念（理論只引一次） — 核心理論需在後續章節呼應 3 次以上
+4. 主框架錨點缺失 — 核心 1–3 個框架首次出現必須引 primary source
+5. 段落主張無引用支撐 — 任何實質性主張都需同句或前一句有引用
+
+## 適合對象
+- 在職進修碩士生（全職工作 + 論文兩頭燒）
+- 研究方法卡關者（統計 / 質性編碼 / 研究架構）
+- 寫作節奏散掉者（起頭容易、收尾困難）
+- 口試前緊張者（需要全真模擬與 PPT 診斷）
+
+## 不適合對象
+- 尚未決定研究主題者（請先找指導教授）
+- 追求快速取得學位者（嵐海節奏較慢、重學習不重交差）
+- 預算極度緊縮者（最便宜方案 NT$ 1,500 / 單章校對起跳）
+
+## 核心紅線
+嵐海絕不撰寫客戶論文任何段落。代寫違反全球學術倫理共識（COPE / WAME / 各大期刊政策皆明文禁止），會導致客戶論文被撤稿、學位被撤銷。
+
+## 聯絡方式
+- 線上服務：https://lanhai-thesis-coach.streamlit.app/
+- Email：b0915905438@gmail.com
+- LINE：pulovemo
+- 公司：嵐海知識股份有限公司（Lanhai Knowledge Co., Ltd.）
+
+## License
+- 網站內容：CC BY-NC 4.0（非商業使用可引用、需標註來源）
+- 程式碼：MIT License

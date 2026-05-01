@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta name="theme-color" content="#0062B1">
+
+<title>嵐海知識｜論文陪跑顧問 - 學術寫作教練 / 五階段透明流程 / 不代寫</title>
+<meta name="description" content="嵐海知識為華語圈碩博士生提供學術寫作教練服務：五階段透明陪跑、單章 APA 校對、口試模擬，全程不代寫論文正文，比照律師業制定倫理守則。">
+<meta name="keywords" content="論文寫作教練,碩博論文陪跑,學術寫作顧問,APA 校對,口試模擬,論文卡關,學術寫作倫理,不代寫論文,thesis writing coach,academic writing tutor Taiwan,dissertation coaching">
+<meta name="author" content="嵐海知識股份有限公司 Lanhai Knowledge Co., Ltd.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
+<link rel="canonical" href="https://lanhai-knowledge.github.io/lanhai-thesis-coach/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="嵐海知識｜論文陪跑顧問">
+<meta property="og:title" content="嵐海知識｜論文陪跑顧問 - 學術寫作教練 / 五階段透明流程">
+<meta property="og:description" content="面向華語圈碩博士生的付費學術寫作教練服務，全程不代寫論文正文，比照律師業制定倫理守則。">
+<meta property="og:url" content="https://lanhai-knowledge.github.io/lanhai-thesis-coach/">
+<meta property="og:image" content="https://lanhai-thesis-coach.streamlit.app/static/og-cover.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="嵐海知識｜論文陪跑顧問">
+<meta name="twitter:description" content="華語圈碩博士生的學術寫作教練 - 不代寫論文，五階段透明流程">
+<meta name="twitter:image" content="https://lanhai-thesis-coach.streamlit.app/static/og-cover.png">
+
+<!-- JSON-LD: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://lanhai-knowledge.github.io/lanhai-thesis-coach/#organization",
+  "name": "嵐海知識股份有限公司",
+  "alternateName": ["Lanhai Knowledge", "嵐海知識"],
+  "legalName": "Lanhai Knowledge Co., Ltd.",
+  "description": "面向華語圈碩博士生的付費學術寫作教練服務，提供五階段透明陪跑流程、單章 APA 校對、口試模擬，全程不代寫論文正文。",
+  "url": "https://lanhai-knowledge.github.io/lanhai-thesis-coach/",
+  "sameAs": ["https://lanhai-thesis-coach.streamlit.app/"],
+  "email": "b0915905438@gmail.com",
+  "areaServed": {
+    "@type": "Place",
+    "name": "華語圈（台灣 / 香港 / 新加坡 / 海外華人研究生）"
+  },
+  "serviceType": ["學術寫作教練", "論文陪跑諮詢", "APA 校對", "口試模擬"],
+  "knowsLanguage": ["zh-TW", "zh-Hant", "en"],
+  "ethicsPolicy": "https://lanhai-thesis-coach.streamlit.app/關於嵐海",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "嵐海論文陪跑服務方案",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "L1 ・ 單章 APA 校對",
+        "description": "已寫完想找人掃格式，5,000 字內單章",
+        "price": "1500",
+        "priceCurrency": "TWD"
+      },
+      {
+        "@type": "Offer",
+        "name": "L2 ・ 單章潤稿（含 5 大陷阱掃描）",
+        "description": "章節快定稿前最後一道關，5,000 字內單章",
+        "price": "2000",
+        "priceCurrency": "TWD"
+      },
+      {
+        "@type": "Offer",
+        "name": "L3 ・ 月度陪跑",
+        "description": "4 次 meeting + 隨時諮詢視窗，月度節奏督促",
+        "price": "8000",
+        "priceCurrency": "TWD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "billingDuration": "P1M",
+          "billingIncrement": 1,
+          "unitText": "月"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "L4 ・ 研究方法診斷",
+        "description": "統計卡關 / 質性編碼 / 研究架構梳理，90 分鐘一次性深談",
+        "price": "5000",
+        "priceCurrency": "TWD"
+      },
+      {
+        "@type": "Offer",
+        "name": "L5 ・ 口試衝刺包",
+        "description": "PPT 診斷 + 全真模擬 ×2，口試前 4–6 週使用",
+        "price": "12000",
+        "priceCurrency": "TWD"
+      }
+    ]
+  }
+}
+</script>
+
+<!-- JSON-LD: Person (顧問) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://lanhai-knowledge.github.io/lanhai-thesis-coach/#consultant",
+  "name": "嵐嵐",
+  "alternateName": ["Lan Lan", "楊念慈"],
+  "jobTitle": "論文陪跑專業顧問",
+  "worksFor": {
+    "@id": "https://lanhai-knowledge.github.io/lanhai-thesis-coach/#organization"
+  },
+  "description": "數位遊牧專業顧問。穿梭在不同城市的咖啡廳，擅長把論文卡關拆解成可執行的下一步。領航者 × 陪跑者雙重風格。",
+  "knowsAbout": [
+    "學術論文陪跑",
+    "APA 格式",
+    "研究方法診斷",
+    "質性編碼",
+    "量化統計分析",
+    "口試模擬",
+    "Claude Code",
+    "系統架構整合"
+  ]
+}
+</script>
+
+<!-- JSON-LD: HowTo (五階段標準流程) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "嵐海論文陪跑五階段標準流程",
+  "description": "從初談到結案的五階段陪跑流程，每階段書面交付物明列、月度工作明細帳單可追溯。",
+  "totalTime": "P3M",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "初談",
+      "text": "30–45 分鐘付費初談 NT$ 500（簽約後全額折抵）。需求釐清、不適配時誠實告知。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "案情分析",
+      "text": "3 個工作日內出具書面需求分析書與方案建議書。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "簽約",
+      "text": "確認方案、簽訂服務合約與倫理守則、繳交首期款。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "執行",
+      "text": "依方案進行月度 meeting 紀錄、書面回饋、隨時諮詢視窗、月度工作明細帳單。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "結案",
+      "text": "服務終止時提供結案報告、學習成長摘要、後續建議。"
+    }
+  ]
+}
+</script>
+
+<!-- JSON-LD: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "嵐海會代寫論文正文嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不會，這是核心紅線。嵐海提供寫作教練、結構診斷、APA 校對、口試模擬，但不撰寫客戶論文任何段落。代寫服務在全球學術倫理共識下會導致撤稿與撤銷學位，嵐海不協助任何此類請求。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "跟一般校稿 / 翻譯社的差別？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "校稿社專注語句通順與格式，嵐海額外提供結構診斷（章節邏輯、理論錨點、研究架構）、研究方法諮詢、口試模擬。簡單說：校稿社做表面，嵐海做骨架。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "適合在職進修者嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "非常適合。L3 月度陪跑就是設計給全職工作 + 論文兩頭燒的對象，提供月度節奏督促與隨時諮詢視窗。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "可以用 AI 工具輔助寫作嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "可以，但必須自己驗證。嵐海建議的工作流是「AI 草擬 → 自己改寫 → 驗證引用 → 自己整合」，AI 輸出只能當原料，最終文字必須出自作者本人。嵐海審稿時會特別檢查 AI 痕跡（如捏造引用、邏輯跳躍、過度套話）。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "初談 NT$ 500 為什麼要收費？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "為了篩選真心需要的客戶、避免免費諮詢被當答疑窗口濫用，也讓顧問能完整準備。簽約後全額折抵首期款，所以實際上有付定金的效果。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "保密嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "嵐海簽約後即受保密義務拘束，合約終止後 5 年仍有效（比照律師業）。客戶論文題目、研究內容、討論細節皆不對外揭露，網站案例敘事一律去識別化。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "可以開發票嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "嵐海知識股份有限公司可開立公司行號發票，可作為個人進修費用（依稅法規定可申報）。"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- JSON-LD: WebSite (含 SearchAction，給 Google sitelinks) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://lanhai-knowledge.github.io/lanhai-thesis-coach/#website",
+  "url": "https://lanhai-knowledge.github.io/lanhai-thesis-coach/",
+  "name": "嵐海知識｜論文陪跑顧問",
+  "description": "華語圈碩博士生的付費學術寫作教練服務",
+  "inLanguage": "zh-TW",
+  "publisher": {
+    "@id": "https://lanhai-knowledge.github.io/lanhai-thesis-coach/#organization"
+  }
+}
+</script>
+
+<style>
+:root {
+  --primary: #0062B1;
+  --primary-dark: #004a87;
+  --primary-light: #3b8fd9;
+  --text: #1a202c;
+  --text-muted: #4a5568;
+  --bg: #ffffff;
+  --bg-soft: #f7fafc;
+  --border: #e2e8f0;
+  --radius: 12px;
+  --max: 980px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+}
+a { color: var(--primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: var(--max); margin: 0 auto; padding: 0 20px; }
+header {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  color: white;
+  padding: 64px 20px 80px;
+}
+header .container { text-align: left; }
+.eyebrow {
+  font-size: 13px; letter-spacing: 2px; opacity: 0.85;
+  margin-bottom: 12px; font-weight: 600;
+}
+header h1 {
+  font-size: 38px; line-height: 1.3; margin: 0 0 16px; font-weight: 700;
+  color: white;
+}
+header p.lead { font-size: 18px; opacity: 0.95; margin: 0 0 28px; max-width: 720px; }
+.cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn {
+  display: inline-block; padding: 12px 24px; border-radius: 8px;
+  font-weight: 600; font-size: 15px; transition: transform 0.1s;
+}
+.btn:hover { transform: translateY(-1px); text-decoration: none; }
+.btn-primary { background: white; color: var(--primary); }
+.btn-ghost { background: transparent; color: white; border: 1.5px solid rgba(255,255,255,0.7); }
+section { padding: 56px 0; }
+section.alt { background: var(--bg-soft); }
+h2 { font-size: 28px; margin: 0 0 12px; color: var(--text); }
+h2 + p.section-lead { color: var(--text-muted); margin: 0 0 32px; max-width: 720px; }
+h3 { font-size: 19px; margin: 0 0 8px; color: var(--text); }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.card {
+  background: white; border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 24px; transition: box-shadow 0.15s;
+}
+.card:hover { box-shadow: 0 4px 16px rgba(0,98,177,0.08); }
+.card h3 { color: var(--primary); }
+.card .price { font-size: 22px; font-weight: 700; color: var(--text); margin: 8px 0 12px; }
+.card .price small { font-size: 14px; font-weight: 400; color: var(--text-muted); }
+ol.steps { list-style: none; padding: 0; margin: 0; counter-reset: stp; }
+ol.steps li {
+  counter-increment: stp; padding: 16px 0 16px 56px; position: relative;
+  border-bottom: 1px solid var(--border);
+}
+ol.steps li:last-child { border-bottom: none; }
+ol.steps li::before {
+  content: counter(stp); position: absolute; left: 0; top: 16px;
+  width: 36px; height: 36px; border-radius: 50%;
+  background: var(--primary); color: white;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 16px;
+}
+ol.steps li strong { display: block; font-size: 17px; margin-bottom: 4px; }
+.faq details {
+  background: white; border: 1px solid var(--border); border-radius: 8px;
+  padding: 16px 20px; margin-bottom: 12px;
+}
+.faq summary {
+  cursor: pointer; font-weight: 600; font-size: 16px; color: var(--text);
+}
+.faq details[open] summary { color: var(--primary); }
+.faq details p { margin: 12px 0 0; color: var(--text-muted); }
+.pitfall { padding: 16px 0; border-bottom: 1px solid var(--border); }
+.pitfall:last-child { border-bottom: none; }
+.pitfall h3 { color: var(--primary); }
+.pitfall .self-rescue {
+  background: var(--bg-soft); border-left: 3px solid var(--primary);
+  padding: 8px 14px; margin: 10px 0 0; font-size: 14px;
+}
+.banner-cta {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  color: white; padding: 40px 32px; border-radius: var(--radius);
+  text-align: center;
+}
+.banner-cta h2 { color: white; margin: 0 0 8px; }
+.banner-cta p { opacity: 0.95; margin: 0 0 20px; }
+.consultant-card {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  color: white; padding: 32px; border-radius: var(--radius);
+  margin-bottom: 32px;
+}
+.consultant-card h3 { color: white; font-size: 26px; margin: 4px 0; }
+.consultant-card .quote {
+  border-left: 2px solid rgba(255,255,255,0.3); padding-left: 14px;
+  font-style: italic; margin: 16px 0;
+}
+footer {
+  padding: 32px 20px; background: #1a202c; color: #cbd5e0; font-size: 14px;
+}
+footer a { color: #90cdf4; }
+footer .container { text-align: center; }
+.muted { color: var(--text-muted); font-size: 14px; }
+.no-list { background: var(--bg-soft); padding: 14px 18px; border-radius: 8px; font-size: 14px; }
+@media (max-width: 720px) {
+  header h1 { font-size: 28px; }
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  section { padding: 40px 0; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="eyebrow">嵐海知識 ・ LANHAI KNOWLEDGE</div>
+    <h1>給卡關的你，論文還是寫得出來</h1>
+    <p class="lead">嵐海知識為華語圈碩博士生提供<strong>學術寫作教練服務</strong>。五階段透明陪跑流程、單章 APA 校對、口試模擬，<strong>全程不代寫論文正文</strong>，比照律師業制定學術寫作教練倫理守則。</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://lanhai-thesis-coach.streamlit.app/">前往線上服務</a>
+      <a class="btn btn-ghost" href="https://lanhai-thesis-coach.streamlit.app/預約諮詢">預約 30 分鐘初談</a>
+    </div>
+  </div>
+</header>
+
+<!-- 嵐海是 / 不是 -->
+<section>
+  <div class="container">
+    <h2>嵐海是什麼</h2>
+    <p class="section-lead">用「是 / 不是」對照清楚定位，避免被誤認為論文代寫或翻譯社。</p>
+    <div class="grid-2">
+      <div class="card">
+        <h3>嵐海「是」</h3>
+        <ul>
+          <li>學術寫作教練（Academic Writing Coach）服務</li>
+          <li>訂閱式 / 單次計費的陪跑諮詢</li>
+          <li>章節結構診斷、APA 校對、口試模擬、研究方法卡關拆解</li>
+        </ul>
+      </div>
+      <div class="card" style="border-color: #fed7d7;">
+        <h3 style="color: #c53030;">嵐海「不是」</h3>
+        <ul>
+          <li>論文代寫服務（核心紅線：絕不撰寫客戶論文正文）</li>
+          <li>論文工廠（paper mill）或代刊發服務</li>
+          <li>一次性家教或翻譯社</li>
+        </ul>
+      </div>
+    </div>
+    <p class="muted" style="margin-top: 16px;">代寫違反全球學術倫理共識（COPE / WAME / 各大期刊政策皆明文禁止），會導致客戶論文被撤稿、學位被撤銷。嵐海定位是「陪跑教練」——你才是作者，顧問是教你怎麼寫，不替你寫。</p>
+  </div>
+</section>
+
+<!-- 適合對象 -->
+<section class="alt">
+  <div class="container">
+    <h2>誰適合論文陪跑</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>🎯 在職進修碩士生</h3>
+        <p>全職工作 + 論文兩頭燒，缺穩定節奏。需要月度 check-in、寫作節奏建立、章節進度督促。</p>
+      </div>
+      <div class="card">
+        <h3>🧪 研究方法卡關者</h3>
+        <p>統計跑不出、質性編碼一團亂、研究架構講不清。需要方法論診斷、研究架構圖梳理、編碼簿協助設計。</p>
+      </div>
+      <div class="card">
+        <h3>✍️ 寫作節奏散掉者</h3>
+        <p>起頭容易、收尾困難。需要章節骨架建立、段落主張驗證、引用補強。</p>
+      </div>
+      <div class="card">
+        <h3>🎤 口試前緊張者</h3>
+        <p>需要全真模擬、回應策略演練。提供口試 PPT 診斷、預期問題庫整理、回應策略演練。</p>
+      </div>
+    </div>
+    <div class="no-list" style="margin-top: 24px;">
+      <strong>不適合：</strong>尚未決定研究主題者（請先找指導教授）、追求快速取得學位者（嵐海節奏較慢、重學習不重交差）、預算極度緊縮者（最便宜方案 NT$ 1,500 / 單章校對起跳）。
+    </div>
+  </div>
+</section>
+
+<!-- 服務方案 -->
+<section>
+  <div class="container">
+    <h2>服務方案</h2>
+    <p class="section-lead">五大方案對應不同階段需求，皆可在線上預約初談後選擇。</p>
+    <div class="grid-2">
+      <div class="card">
+        <h3>L1 ・ 單章 APA 校對</h3>
+        <div class="price">NT$ 1,500 <small>/ 5,000 字內</small></div>
+        <p>已寫完想找人掃格式。單章 APA 引用、參考文獻、中英混用、頁碼格式全面檢查。</p>
+      </div>
+      <div class="card">
+        <h3>L2 ・ 單章潤稿（含 5 大陷阱掃描）</h3>
+        <div class="price">NT$ 2,000 <small>/ 5,000 字內</small></div>
+        <p>章節快定稿前最後一道關。除 APA 外加上五大寫作陷阱（AI 捏造引用、孤兒概念、主框架錨點等）的全面掃描。</p>
+      </div>
+      <div class="card">
+        <h3>L3 ・ 月度陪跑</h3>
+        <div class="price">NT$ 8,000 <small>/ 月</small></div>
+        <p>4 次 meeting + 隨時諮詢視窗。寫作節奏需要長期支援者首選，提供月度節奏督促。</p>
+      </div>
+      <div class="card">
+        <h3>L4 ・ 研究方法診斷</h3>
+        <div class="price">NT$ 5,000 <small>/ 90 分鐘</small></div>
+        <p>統計卡關 / 質性編碼 / 架構梳理。一次性深談，適合方法論層面卡住的研究者。</p>
+      </div>
+      <div class="card" style="grid-column: span 2;">
+        <h3>L5 ・ 口試衝刺包</h3>
+        <div class="price">NT$ 12,000 <small>/ 整包</small></div>
+        <p>PPT 診斷 + 全真模擬 ×2。口試前 4–6 週使用。包含預期問題庫、回應策略演練、PPT 修訂建議。</p>
+      </div>
+    </div>
+    <p style="margin-top: 24px;"><a href="https://lanhai-thesis-coach.streamlit.app/服務方案">→ 查看完整方案條件、加購選項、退費政策</a></p>
+  </div>
+</section>
+
+<!-- 五階段流程 -->
+<section class="alt">
+  <div class="container">
+    <h2>五階段標準流程</h2>
+    <p class="section-lead">每階段書面交付物明列、月度工作明細帳單可追溯，避免「顧問做了什麼說不清」的常見痛點。</p>
+    <ol class="steps">
+      <li><strong>初談</strong>30–45 分鐘付費 NT$ 500（簽約後全額折抵）。需求釐清、不適配時誠實告知。</li>
+      <li><strong>案情分析</strong>3 個工作日內出具書面需求分析書與方案建議書。</li>
+      <li><strong>簽約</strong>確認方案、簽訂服務合約與倫理守則、繳交首期款。</li>
+      <li><strong>執行</strong>依方案進行月度 meeting 紀錄、書面回饋、隨時諮詢視窗、月度工作明細帳單。</li>
+      <li><strong>結案</strong>服務終止時提供結案報告、學習成長摘要、後續建議。</li>
+    </ol>
+  </div>
+</section>
+
+<!-- 5 大寫作陷阱 -->
+<section>
+  <div class="container">
+    <h2>五大常見學術寫作陷阱</h2>
+    <p class="section-lead">嵐海審稿經驗整理，碩博士生在文獻撰寫時最常踩的五個雷區。每項都是會被審稿人直接打回的硬傷。</p>
+
+    <div class="pitfall">
+      <h3>1. AI 工具捏造引用</h3>
+      <p>ChatGPT / Claude 給的引用清單可能 DOI 真實但對應到別篇、標題真實但作者是 AI 編的、期刊存在但該年沒這篇。</p>
+      <p class="self-rescue"><strong>自救法：</strong>每筆引用回 Google Scholar / Web of Science 對照「標題、作者、年份」三欄一致。</p>
+    </div>
+
+    <div class="pitfall">
+      <h3>2. APA 格式中英混用</h3>
+      <p>APA 規定英文用半形括號 + 逗號、中文用全形括號 + 頓號。範例：英文 <code>(Mishra &amp; Koehler, 2006)</code>、中文 <code>（王明仁、李志偉，2018）</code>。混用會被審稿人視為「連格式都不熟」。</p>
+    </div>
+
+    <div class="pitfall">
+      <h3>3. 孤兒概念（理論只引一次）</h3>
+      <p>引入 UTAUT / TPACK / TAM 等理論卻全章只出現一次，會讓審稿人懷疑「真的懂嗎？」。</p>
+      <p class="self-rescue"><strong>判準：</strong>核心理論至少在後續章節出現 3 次以上的呼應（定義 → 對接研究問題 → 在分析章解讀資料）。</p>
+    </div>
+
+    <div class="pitfall">
+      <h3>4. 主框架錨點缺失</h3>
+      <p>論文以某理論為主框架，但正文找不到原始作者的原始文獻引用。</p>
+      <p class="self-rescue"><strong>判準：</strong>核心 1–3 個框架，首次出現必須引 primary source，不能只引綜述或中文翻譯版。</p>
+    </div>
+
+    <div class="pitfall">
+      <h3>5. 段落主張無引用支撐</h3>
+      <p>寫「近年來研究指出 AI 能提升教師備課效率」卻無引用。</p>
+      <p class="self-rescue"><strong>判準：</strong>任何「實質性主張」都必須在同句或前一句有引用，否則 = 個人意見，應移到討論章而非文獻探討。</p>
+    </div>
+
+    <p style="margin-top: 24px;"><a href="https://lanhai-thesis-coach.streamlit.app/常見學術寫作陷阱">→ 查看完整版（含「自救清單」與修補範例）</a></p>
+  </div>
+</section>
+
+<!-- 顧問 -->
+<section class="alt">
+  <div class="container">
+    <h2>顧問</h2>
+    <div class="consultant-card">
+      <div class="eyebrow" style="opacity:0.8;">數位遊牧專業顧問 ・ DIGITAL NOMAD CONSULTANT</div>
+      <h3>嵐嵐 ・ Lan Lan</h3>
+      <div style="opacity: 0.85; font-size: 14px;">本名：楊念慈</div>
+      <div class="quote">「系統能解決的事，就不該浪費你的腦力。」</div>
+      <p style="opacity: 0.95; margin: 0;">穿梭在不同城市的咖啡廳，擅長把論文卡關拆解成可執行的下一步。領航者 × 陪跑者雙重風格——面對複雜系統時沉穩有邏輯，面對寫作焦慮者時溫柔有同理。</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="container">
+    <h2>常見問題</h2>
+    <div class="faq">
+      <details>
+        <summary>Q1：嵐海會代寫論文正文嗎？</summary>
+        <p>不會，這是核心紅線。嵐海提供寫作教練、結構診斷、APA 校對、口試模擬，但<strong>不撰寫客戶論文任何段落</strong>。代寫服務在全球學術倫理共識下會導致撤稿與撤銷學位，嵐海不協助任何此類請求。</p>
+      </details>
+      <details>
+        <summary>Q2：跟一般校稿 / 翻譯社的差別？</summary>
+        <p>校稿社專注語句通順與格式，嵐海額外提供結構診斷（章節邏輯、理論錨點、研究架構）、研究方法諮詢、口試模擬。簡單說：校稿社做表面，嵐海做骨架。</p>
+      </details>
+      <details>
+        <summary>Q3：適合在職進修者嗎？</summary>
+        <p>非常適合。L3（月度陪跑）就是設計給全職工作 + 論文兩頭燒的對象，提供月度節奏督促與隨時諮詢視窗。</p>
+      </details>
+      <details>
+        <summary>Q4：可以用 AI 工具輔助寫作嗎？</summary>
+        <p>可以，但<strong>必須自己驗證</strong>。嵐海建議的工作流是「AI 草擬 → 自己改寫 → 驗證引用 → 自己整合」，AI 輸出只能當原料，最終文字必須出自作者本人。嵐海審稿時會特別檢查 AI 痕跡（如捏造引用、邏輯跳躍、過度套話）。</p>
+      </details>
+      <details>
+        <summary>Q5：初談 NT$ 500 為什麼要收費？</summary>
+        <p>為了篩選真心需要的客戶、避免免費諮詢被當答疑窗口濫用，也讓顧問能完整準備。<strong>簽約後全額折抵首期款</strong>，所以實際上有付定金的效果。</p>
+      </details>
+      <details>
+        <summary>Q6：保密嗎？</summary>
+        <p>嵐海簽約後即受保密義務拘束，<strong>合約終止後 5 年仍有效</strong>（比照律師業）。客戶論文題目、研究內容、討論細節皆不對外揭露，網站案例敘事一律去識別化。</p>
+      </details>
+      <details>
+        <summary>Q7：可以開發票嗎？</summary>
+        <p>嵐海知識股份有限公司可開立公司行號發票，可作為個人進修費用（依稅法規定可申報）。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="alt">
+  <div class="container">
+    <div class="banner-cta">
+      <h2>不確定哪個方案適合？</h2>
+      <p>預約 30–45 分鐘付費初談 NT$ 500（簽約後全額折抵），嵐海顧問將協助你釐清最需要的協助。</p>
+      <a class="btn btn-primary" href="https://lanhai-thesis-coach.streamlit.app/預約諮詢">預約初談</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>
+      <strong>嵐海知識股份有限公司</strong>（Lanhai Knowledge Co., Ltd.）<br>
+      Email：<a href="mailto:b0915905438@gmail.com">b0915905438@gmail.com</a> ｜ LINE：<code>pulovemo</code>
+    </p>
+    <p class="muted">
+      網站內容採 CC BY-NC 4.0 授權（非商業使用可引用、需標註來源）。<br>
+      <a href="https://lanhai-thesis-coach.streamlit.app/">線上服務</a> ・
+      <a href="/lanhai-thesis-coach/llms.txt">llms.txt</a> ・
+      <a href="/lanhai-thesis-coach/sitemap.xml">sitemap.xml</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
