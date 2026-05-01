@@ -3,12 +3,14 @@
 from __future__ import annotations
 import streamlit as st
 from lib.footer import render_footer
+from lib.branding import get_page_icon, render_sidebar_logo
 
 st.set_page_config(
     page_title="常見學術寫作陷阱｜嵐海知識",
-    page_icon="📚",
+    page_icon=get_page_icon("📚"),
     layout="wide",
 )
+render_sidebar_logo()
 
 st.markdown("## 📚 常見學術寫作陷阱")
 st.markdown(

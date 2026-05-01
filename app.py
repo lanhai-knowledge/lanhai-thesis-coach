@@ -3,13 +3,15 @@
 from __future__ import annotations
 import streamlit as st
 from lib.footer import render_footer
+from lib.branding import get_page_icon, render_sidebar_logo
 
 st.set_page_config(
     page_title="嵐海知識｜論文陪跑顧問",
-    page_icon="🌊",
+    page_icon=get_page_icon("🌊"),
     layout="wide",
     initial_sidebar_state="expanded",
 )
+render_sidebar_logo()
 
 # === Hero ===
 col_hero_text, col_hero_visual = st.columns([3, 2])

@@ -3,13 +3,15 @@
 from __future__ import annotations
 import streamlit as st
 from lib.footer import render_footer
+from lib.branding import get_page_icon, render_sidebar_logo
 from lib.articles import list_articles, get_article, list_categories
 
 st.set_page_config(
     page_title="寫作知識庫｜嵐海知識",
-    page_icon="📝",
+    page_icon=get_page_icon("📝"),
     layout="wide",
 )
+render_sidebar_logo()
 
 # ---- 路由：?article=<slug> 進入單篇；無 query 顯示列表 ----
 slug = st.query_params.get("article", None)
