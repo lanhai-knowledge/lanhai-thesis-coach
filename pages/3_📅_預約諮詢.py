@@ -4,6 +4,11 @@ from __future__ import annotations
 import streamlit as st
 from lib.footer import render_footer
 from lib.branding import get_page_icon, render_sidebar_logo
+from lib.mailer import (
+    MailerConfigError,
+    format_booking_body,
+    send_booking_email,
+)
 
 st.set_page_config(
     page_title="預約諮詢｜嵐海知識",
@@ -120,14 +125,42 @@ with st.form("booking_form"):
         if not (name and email and topic and pain_point and consent):
             st.error("請填寫必填欄位（標 * 者）並勾選同意條款。")
         else:
-            st.success(
-                "✅ 預約資訊已記錄。"
-                "嵐海顧問將於 1–2 個工作天內以 email 回覆確認。"
+            body = format_booking_body(
+                {
+                    "稱呼": name,
+                    "Email": email,
+                    "LINE ID": line_id,
+                    "就讀階段": school_program,
+                    "論文主題": topic,
+                    "目前最想解決的問題": pain_point,
+                    "偏好初談時段": preferred_time,
+                    "有興趣的方案": interested_plan,
+                }
             )
-            st.caption(
-                "（目前為網站 demo 階段；"
-                "正式上線後將以 email 自動寄送預約確認信。）"
-            )
+            try:
+                send_booking_email(
+                    subject=f"【嵐海預約】{name}｜{interested_plan}",
+                    body=body,
+                    reply_to=email,
+                )
+            except MailerConfigError as exc:
+                st.error(
+                    "❌ 預約寄送失敗（系統設定不完整）。"
+                    "請改以信件聯絡 b0915905438@gmail.com，"
+                    "並截圖以下訊息給站務："
+                )
+                st.code(str(exc))
+            except Exception as exc:  # noqa: BLE001
+                st.error(
+                    "❌ 預約寄送失敗。請改以信件聯絡 "
+                    "b0915905438@gmail.com，並附上下列錯誤訊息："
+                )
+                st.code(f"{type(exc).__name__}: {exc}")
+            else:
+                st.success(
+                    "✅ 預約資訊已寄出。"
+                    "嵐海顧問將於 1–2 個工作天內以 email 回覆確認。"
+                )
 
 st.markdown("---")
 st.markdown("### 其他聯絡方式")
