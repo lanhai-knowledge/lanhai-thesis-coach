@@ -52,7 +52,7 @@
 
 ## 聯絡方式
 - 線上服務：https://lanhai-thesis-coach.streamlit.app/
-- Email：b0915905438@gmail.com
+- Email：lanlanio1103@gmail.com
 - LINE：pulovemo
 - 公司：嵐海知識股份有限公司（Lanhai Knowledge Co., Ltd.）
 

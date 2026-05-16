@@ -35,7 +35,7 @@ def send_booking_email(
     Secrets 需要：
         SMTP_HOST（預設 smtp.gmail.com）
         SMTP_PORT（預設 465，SSL）
-        SMTP_USER（Gmail 完整地址，例：b0915905438@gmail.com）
+        SMTP_USER（Gmail 完整地址，例：lanlanio1103@gmail.com）
         SMTP_PASS（Gmail App Password 16 碼）
         BOOKING_TO（收件信箱，可逗號分隔多人）
     """

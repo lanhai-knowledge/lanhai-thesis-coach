@@ -146,14 +146,14 @@ with st.form("booking_form"):
             except MailerConfigError as exc:
                 st.error(
                     "❌ 預約寄送失敗（系統設定不完整）。"
-                    "請改以信件聯絡 b0915905438@gmail.com，"
+                    "請改以信件聯絡 lanlanio1103@gmail.com，"
                     "並截圖以下訊息給站務："
                 )
                 st.code(str(exc))
             except Exception as exc:  # noqa: BLE001
                 st.error(
                     "❌ 預約寄送失敗。請改以信件聯絡 "
-                    "b0915905438@gmail.com，並附上下列錯誤訊息："
+                    "lanlanio1103@gmail.com，並附上下列錯誤訊息："
                 )
                 st.code(f"{type(exc).__name__}: {exc}")
             else:
@@ -165,7 +165,7 @@ with st.form("booking_form"):
 st.markdown("---")
 st.markdown("### 其他聯絡方式")
 st.markdown(
-    "- **Email**：b0915905438@gmail.com\n"
+    "- **Email**：lanlanio1103@gmail.com\n"
     "- **LINE**：`pulovemo`（加好友請註明來自嵐海知識網站）\n"
     "- **Email 主旨**：請註明「論文陪跑諮詢」+ 您的稱呼"
 )

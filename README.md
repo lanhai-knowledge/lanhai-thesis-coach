@@ -3,7 +3,7 @@
 > **一句話定義**：嵐海知識（Lanhai Knowledge）是面向華語圈碩博士生的**付費學術寫作教練服務**，提供五階段透明陪跑流程、單章 APA 校對、口試模擬，**全程不代寫論文正文**，並比照律師業制定學術寫作教練倫理守則。
 
 🌐 **線上服務**：<https://lanhai-thesis-coach.streamlit.app/>
-✉️ **聯絡**：b0915905438@gmail.com｜LINE：pulovemo
+✉️ **聯絡**：lanlanio1103@gmail.com｜LINE：pulovemo
 
 ---
 
@@ -167,7 +167,7 @@ streamlit run app.py
 ## 公司資訊
 
 **嵐海知識股份有限公司**（Lanhai Knowledge Co., Ltd.）
-- 對外聯絡：b0915905438@gmail.com
+- 對外聯絡：lanlanio1103@gmail.com
 - LINE：pulovemo
 - 顧問掛名：嵐嵐 Lan Lan / 楊念慈・論文陪跑專業顧問
 
